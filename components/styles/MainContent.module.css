@@ -19,6 +19,7 @@
   background-color: #000000;
   border-radius: 12px;
   padding: 16px;
+  
 }
 
 .earningsInsights h3,
@@ -28,6 +29,7 @@
   font-size: 18px;
   margin-bottom: 8px;
   color: #FFFFFF;
+  
 }
 
 .subheading {
@@ -89,22 +91,29 @@
 .earningsInsights {
   grid-column: 1;
   grid-row: 1;
-}
-
-.earningLevel {
-  grid-column: 2;
-  grid-row: 1;
+  border-bottom: 1px solid white;
 }
 
 .yourRank {
   grid-column: 1;
   grid-row: 2;
+  border-bottom: 1px solid white;
 }
+
+
+.earningLevel {
+  grid-column: 2;
+  grid-row: 1;
+  border-bottom: 1px solid white;
+}
+
+
 
 .totalEarnings {
   grid-column: 2;
   grid-row: 2;
-  position: relative;
+  /* position: relative; */
+  border-bottom: 1px solid white;
 }
 
 .axisLabels {
@@ -127,6 +136,7 @@
   justify-content: space-between;
   color: #718096;
   font-size: 12px;
+  
 }
 
 .legend {
@@ -137,12 +147,13 @@
   position: absolute;
   bottom: 8px;
   right: 16px;
+  
 }
 
 .legendDot {
   width: 8px;
   height: 8px;
-  background-color: #FBBF24;
+  background-color: #29cb44;
   border-radius: 50%;
 }
 
@@ -172,6 +183,7 @@
   position: relative;
 }
 
+
 .bar {
   width: 24px;
   background-color: #14B8A6;
@@ -185,6 +197,7 @@
   justify-content: space-between;
   color: #718096;
   font-size: 12px;
+  
 }
 
 
@@ -192,5 +205,6 @@
   font-size: 20px;
   margin-top: 8px;
   color: #FFFFFF;
+  
 }
 

@@ -25,7 +25,7 @@
 
 .timerInfo span:last-child {
   font-size: 14px;
-  color: #718096; /* Update with Figma subtext color */
+  color: #718096; 
 }
 
 .headerRight {
@@ -35,7 +35,7 @@
 }
 
 .upgradeButton {
-  color: #60A5FA; /* Update with Figma button color */
+  color: #60A5FA; 
   font-size: 14px;
   background: none;
   border: none;
@@ -59,6 +59,6 @@
   right: 0;
   width: 8px;
   height: 8px;
-  background-color: #EF4444; /* Update with Figma notification color */
+  background-color: #EF4444; 
   border-radius: 50%;
 }

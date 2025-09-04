@@ -29,14 +29,14 @@
 }
 
 .navItemActive {
-  background-color: #14B8A6; /* Update with Figma active color */
+  background-color: #14B8A6; 
   color: #FFFFFF;
 }
 
 .navItem {
-  color: #718096; /* Update with Figma inactive color */
+  color: #718096; 
 }
 
 .navItem:hover {
-  background-color: #4A5568; /* Update with Figma hover color */
+  background-color: #4A5568; 
 }
