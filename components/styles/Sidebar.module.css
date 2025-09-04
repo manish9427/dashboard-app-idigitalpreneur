@@ -1,0 +1,42 @@
+.sidebar {
+  width: 256px;
+  background-color: #000000;
+  padding: 16px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.logo img {
+  width: 100px;
+  height: auto;
+}
+
+.navList {
+  list-style: none;
+  margin-top: 24px;
+  flex-grow: 1;
+}
+
+.navItem,
+.navItemActive {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px;
+  font-size: 14px;
+  border-radius: 4px;
+}
+
+.navItemActive {
+  background-color: #14B8A6; /* Update with Figma active color */
+  color: #FFFFFF;
+}
+
+.navItem {
+  color: #718096; /* Update with Figma inactive color */
+}
+
+.navItem:hover {
+  background-color: #4A5568; /* Update with Figma hover color */
+}

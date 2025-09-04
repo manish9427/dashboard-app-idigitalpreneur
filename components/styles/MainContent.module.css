@@ -1,0 +1,196 @@
+.main {
+  padding: 24px;
+  flex: 1;
+  overflow: auto;
+  background-color: #000000;
+}
+
+.gridContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  grid-template-rows: auto auto;
+}
+
+.earningsInsights,
+.yourRank,
+.totalEarnings,
+.earningLevel {
+  background-color: #000000;
+  border-radius: 12px;
+  padding: 16px;
+}
+
+.earningsInsights h3,
+.yourRank h3,
+.totalEarnings h3,
+.earningLevel h3 {
+  font-size: 18px;
+  margin-bottom: 8px;
+  color: #FFFFFF;
+}
+
+.subheading {
+  color: #718096;
+  font-size: 14px;
+  margin-bottom: 16px;
+}
+
+.metricsGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+}
+
+.metricCard {
+  background-color: #141516;
+  padding: 16px;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.metricValue {
+  font-size: 24px;
+  margin: 8px 0;
+  color: #FFFFFF;
+}
+
+.metricChange {
+  color: #10B981;
+  font-size: 12px;
+}
+
+.rankValue {
+  font-size: 36px;
+  color: #14B8A6;
+  margin: 16px 0;
+}
+
+.rankList {
+  margin-top: 24px;
+}
+
+.rankItem {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.rankNumber {
+  color: #14B8A6;
+  font-size: 18px;
+}
+
+.rankEarningsContainer {
+  display: contents;
+}
+
+.earningsInsights {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.earningLevel {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.yourRank {
+  grid-column: 1;
+  grid-row: 2;
+}
+
+.totalEarnings {
+  grid-column: 2;
+  grid-row: 2;
+  position: relative;
+}
+
+.axisLabels {
+  position: absolute;
+  left: -40px;
+  top: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  color: #718096;
+  font-size: 12px;
+}
+
+.xAxisLabels {
+  position: absolute;
+  bottom: 8px;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  color: #718096;
+  font-size: 12px;
+}
+
+.legend {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  margin-top: 8px;
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+
+.legendDot {
+  width: 8px;
+  height: 8px;
+  background-color: #FBBF24;
+  border-radius: 50%;
+}
+
+
+
+.earningLevelHeader{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+.timePeriod {
+  background-color: #4A5568;
+  color: #FFFFFF;
+  padding: 8px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  width: 100px;
+}
+
+.barChart {
+  display: flex;
+  justify-content: space-between;
+  height: 128px;
+  margin-bottom: 8px;
+  align-items: flex-end; /* Align bars from the bottom */
+  position: relative;
+}
+
+.bar {
+  width: 24px;
+  background-color: #14B8A6;
+  border-radius: 4px 4px 0 0;
+  position: relative;
+  bottom: 0; /* Ensure base starts at bottom */
+}
+
+.dayLabels {
+  display: flex;
+  justify-content: space-between;
+  color: #718096;
+  font-size: 12px;
+}
+
+
+.earningValue {
+  font-size: 20px;
+  margin-top: 8px;
+  color: #FFFFFF;
+}
+
