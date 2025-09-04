@@ -179,7 +179,7 @@
   justify-content: space-between;
   height: 128px;
   margin-bottom: 8px;
-  align-items: flex-end; /* Align bars from the bottom */
+  align-items: flex-end; 
   position: relative;
 }
 
@@ -189,7 +189,7 @@
   background-color: #14B8A6;
   border-radius: 4px 4px 0 0;
   position: relative;
-  bottom: 0; /* Ensure base starts at bottom */
+  bottom: 0; 
 }
 
 .dayLabels {
