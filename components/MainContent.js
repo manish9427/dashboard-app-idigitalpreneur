@@ -128,7 +128,7 @@ export default function MainContent() {
                   width={40}
                   height={40}
                 />
-                <div>
+                <div className={styles.nameAndRank}>
                   <p>Taniya Patyal</p>
                   <p className={styles.rankNumber}>#6986</p>
                 </div>
@@ -140,7 +140,7 @@ export default function MainContent() {
                   width={40}
                   height={40}
                 />
-                <div>
+                <div className={styles.nameAndRank}>
                   <p>Piyush Patyal</p>
                   <p className={styles.rankNumber}>#6987</p>
                 </div>
@@ -152,7 +152,7 @@ export default function MainContent() {
                   width={40}
                   height={40}
                 />
-                <div>
+                <div className={styles.nameAndRank}>
                   <p>Uttkarsh Singh</p>
                   <p className={styles.rankNumber}>#6988</p>
                 </div>
@@ -173,7 +173,7 @@ export default function MainContent() {
                 <Line
                   type="monotone"
                   dataKey="revenue"
-                  stroke="#FBBF24"
+                  stroke="#14B8A6"
                   strokeWidth={2}
                   dot={{ r: 3 }}
                   activeDot={{ r: 6 }}
